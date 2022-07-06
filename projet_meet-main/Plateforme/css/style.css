@@ -1,0 +1,47 @@
+*,*:after,*:before{
+	box-sizing: border-box;
+}
+body{
+	font-family:arial;
+	font-size: 16px;
+	margin: 0;
+	min-height: 100vh;
+}
+.image{
+    background-image: url('../Images/Statistics-1-1024x711.jpeg');
+    background-size:cover ;
+}
+.search_select_box{
+	max-width: 400px;
+	margin: 80px auto;
+
+}
+
+.search_select_box select{
+	width: 100% ;
+}
+
+.search_select_box button{
+    background-color:darkblue;
+    color: #fff;
+    padding: 15px 25px;
+}
+
+
+.multi_select_box{
+    width: 400px;
+    margin: 80px auto;
+}
+
+
+.multi_select_box select{
+    width: 100%;
+}
+
+.multi_select_box button{
+  background-color:darkblue;
+  color: #fff;
+  padding: 15px 25px;
+}
+
+
